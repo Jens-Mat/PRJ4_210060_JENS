@@ -1,7 +1,7 @@
 /* Use this file to use your own styles*/
 
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;700&family=Ubuntu&display=swap');
 
 /* Styles for the body */
 
@@ -15,7 +15,8 @@ body {
 
 .resume-header {
     background-color: #ff833b;
-	color:#B34505
+	color:#B34505;
+	text-align: center;
 }
 
 .resume-main {
@@ -49,7 +50,8 @@ body {
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
+	
 }
-.goof{
-	color: 
+.goof {
+	font-family:'Ubuntu', sans-serif;
 }
